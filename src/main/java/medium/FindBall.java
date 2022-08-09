@@ -1,8 +1,12 @@
 package medium;
 
+/**
+ * https://leetcode.com/problems/where-will-the-ball-fall/submissions/
+ */
 public class FindBall {
-    private FindBall(){}
-    
+    private FindBall() {
+    }
+
     public static int[] findBall(int[][] grid) {
         int[] resultGrid = new int[grid[0].length];
 
